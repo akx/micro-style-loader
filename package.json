@@ -1,0 +1,22 @@
+{
+  "name": "micro-style-loader",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Aarni Koskela <akx@iki.fi>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "rt.js"
+  ],
+  "dependencies": {
+    "loader-utils": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "prettier": "^1.5.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "style": "prettier --single-quote --print-width=120 --write *.js"
+  }
+}
